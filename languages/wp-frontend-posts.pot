@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-frontend-posts\n"
+"POT-Creation-Date: 2019-11-06 17:35+0600\n"
+"PO-Revision-Date: 2019-11-06 17:35+0600\n"
+"Last-Translator: \n"
+"Language-Team: aliakbar.reyad@gmail.com\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_attr_e;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/admin/wfp-frontend-setting.php:18
+msgid "WP Frontend"
+msgstr ""
+
+#: inc/admin/wfp-frontend-setting.php:34
+msgid "Settings Saved"
+msgstr ""
+
+#: inc/admin/wfp-frontend-setting.php:45
+msgid "Save Settings"
+msgstr ""
+
+#: inc/admin/wfp-frontend-setting.php:59
+msgid "Main Settings"
+msgstr ""
+
+#: inc/admin/wfp-frontend-setting.php:66
+msgid "Minimum Title Length"
+msgstr ""
+
+#: inc/admin/wfp-frontend-setting.php:80
+msgid "Minimum Content Length"
+msgstr ""
+
+#: inc/admin/wfp-frontend-setting.php:94
+msgid "BuddyPress Admin"
+msgstr ""
+
+#: inc/admin/wfp-frontend-setting.php:108
+msgid "Theme Version"
+msgstr ""
+
+#: inc/admin/wfp-frontend-setting.php:150
+msgid "Show/Hide"
+msgstr ""
+
+#: inc/wfp-frontend.php:38
+#, php-format
+msgid "You need to %s to see this page."
+msgstr ""
+
+#: views/wfp-post-form.php:7
+msgid "Title"
+msgstr ""
+
+#: views/wfp-post-form.php:11
+msgid "Content"
+msgstr ""
+
+#: views/wfp-post-form.php:29
+msgid "Category"
+msgstr ""
+
+#: views/wfp-post-form.php:48
+msgid "Tags"
+msgstr ""
+
+#: views/wfp-post-form.php:58
+msgid "Set Featured Image"
+msgstr ""

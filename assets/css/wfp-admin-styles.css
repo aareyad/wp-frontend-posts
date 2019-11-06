@@ -1,0 +1,46 @@
+.wfp-wrap .wfp_front_end_row input[type='number'] {
+  padding: 8px 15px;
+  height: 36px;
+  min-width: 330px;
+  border-color: #07bfa7; }
+  .wfp-wrap .wfp_front_end_row input[type='number']:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #07bfa7; }
+
+.wfp-wrap .wfp_front_end_row input[type=checkbox] {
+  border-color: #07bfa7;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none; }
+
+.wfp-wrap .button-primary,
+.wfp-wrap .button-primary:active,
+.wfp-wrap .button-primary:focus,
+.wfp-wrap .button-primary:hover {
+  background: #07bfa7;
+  border-color: #07bfa7;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  padding: 8px 20px;
+  color: #ffffff;
+  border-radius: 0;
+  text-shadow: none;
+  height: auto;
+  font-size: 16px;
+  letter-spacing: 0.05em; }
+
+.wfp-wrap .form-shortcodes h4 {
+  color: #07bfa7;
+  font-size: 16px;
+  background: #ffffff;
+  display: inline-block;
+  padding: 5px 15px;
+  line-height: 24px;
+  margin: 0; }
+
+@media screen and (max-width: 560px) {
+  .wfp-wrap .wfp_front_end_row input[type='number'] {
+    min-width: 280px; } }

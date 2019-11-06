@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei&display=swap");
+.wfp-postbox {
+  font-family: 'ZCOOL XiaoWei', serif;
+  max-width: 100% !important;
+}
+
+.wfp-postbox .new-post input {
+  font-size: 16px;
+}
+
+.wfp-postbox .new-post input[type='text'] {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+  color: #495057;
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+.wfp-postbox .new-post input[type='text']:focus {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+.wfp-postbox .new-post label {
+  font-weight: 700;
+  color: #495057;
+  display: inline-block;
+  margin-bottom: .5rem;
+  font-size: 16px;
+}
+
+.wfp-postbox .new-post .wp-editor-area {
+  font-family: 'ZCOOL XiaoWei', serif !important;
+  font-size: 16px !important;
+}
+
+.wfp-postbox .new-post .mce-edit-area.mce-container.mce-panel.mce-stack-layout-item {
+  font-size: 16px;
+}
+
+.wfp-postbox .new-post .mce-btn button {
+  border-radius: 0;
+}
+
+.wfp-postbox .new-post .mce-btn button:hover {
+  background: #cccccc;
+}
+
+.wfp-postbox .new-post .mce-toolbar .mce-btn-group .mce-btn:focus,
+.wfp-postbox .new-post .mce-toolbar .mce-btn-group .mce-btn:hover,
+.wfp-postbox .new-post .qt-dfw:focus,
+.wfp-postbox .new-post .qt-dfw:hover {
+  border-color: transparent;
+}
+
+.wfp-postbox .new-post .wp-core-ui .quicktags-toolbar input.button.button-small {
+  margin: 1px;
+}
+
+.wfp-postbox .new-post .wp-core-ui .button.button-small {
+  padding: 0 7px 1px;
+}
+
+.wfp-postbox .new-post .wp-core-ui .wp-media-buttons .insert-media {
+  height: 36px;
+  padding-left: 8px;
+  padding-left: 7px;
+  margin-bottom: 5px;
+  color: #495057;
+  border-color: rgba(0, 0, 0, 0.08);
+  font-weight: 400;
+  background: #f7f7f7;
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.wfp-postbox .new-post .wp-core-ui .wp-editor-tabs .wp-switch-editor {
+  background: #f7f7f7;
+  color: #495057;
+  cursor: pointer;
+  height: 28px;
+  font-weight: 400;
+  margin: 5px 0 0 5px;
+  padding: 3px 12px 4px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.wfp-postbox .new-post .wp-core-ui .wp-editor-tabs .html-active .switch-html,
+.wfp-postbox .new-post .wp-core-ui .wp-editor-tabs .tmce-active .switch-tmce {
+  background: #f5f5f5;
+  color: #555555;
+  border-bottom-color: #f5f5f5;
+}
+
+.wfp-postbox .new-post .wp-core-ui .wp-editor-tabs .wp-switch-editor:active {
+  background-color: #f5f5f5;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.wfp-postbox .new-post .wp-core-ui .wp-editor-tabs .html-active .switch-html:focus,
+.wfp-postbox .new-post .wp-core-ui .wp-editor-tabs .tmce-active .switch-tmce:focus,
+.wfp-postbox .new-post .wp-core-ui .wp-editor-tabs .wp-switch-editor:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.wfp-postbox .new-post .wp-core-ui .quicktags-toolbar .ed_button {
+  background: #f7f7f7;
+  color: #495057;
+  font-weight: 400;
+}
+
+.wfp-postbox .new-post .wp-core-ui .quicktags-toolbar .ed_button:focus,
+.wfp-postbox .new-post .wp-core-ui .quicktags-toolbar .ed_button:active {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.wfp-postbox .new-post input[type="submit"] {
+  border-color: #07bfa7;
+  background: #07bfa7;
+  color: #ffffff;
+  padding: 13px 30px;
+  font-size: 18px;
+  border-radius: 0;
+  letter-spacing: .05em;
+}
+
+.wfp-postbox p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #cccccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.wfp-form-container {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 80px;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+
+.wfp-form-container .grid-item > div {
+  margin-bottom: 20px;
+}
+
+.cat-list .select2-container--default .select2-selection--multiple,
+.wfp-postbox .wfp-right-content #wfp-category {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 1.4rem;
+  line-height: 50px;
+  outline: none;
+  border-color: rgba(0, 0, 0, 0.08) !important;
+  background-color: #ffffff;
+  color: #495057;
+  display: block;
+  width: 100%;
+  border-radius: 0 !important;
+}
+
+.cat-list .select2-container--default.select2-container--focus .select2-selection--multiple,
+.cat-list .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+  border-radius: 0 !important;
+  border-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+.cat-list .select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #07bfa7 !important;
+  border: 1px solid #07bfa7 !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+}
+
+.cat-list .select2-container--default.select2-container--focus .select2-selection--multiple {
+  height: 50px !important;
+  padding: 0px !important;
+}
+
+.cat-list .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+  color: #ffffff !important;
+}
+
+.cat-list .select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+  font-size: 16px;
+}
+
+.cat-list .select2-container--default .select2-selection--multiple .select2-selection__rendered li:first-child {
+  display: none;
+}
+
+.cat-list .select2-container {
+  min-width: 100%;
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .entry .entry-header {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 15px !important;
+  }
+  .entry .entry-content,
+  .entry .entry-summary {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 15px !important;
+  }
+  .entry .entry-footer {
+    max-width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    padding: 0 15px !important;
+  }
+}
+
+.wp-message.error {
+  color: red;
+}
+
+@media all and (max-width: 1199px) {
+  .wfp-form-container {
+    grid-column-gap: 30px;
+  }
+}
+
+@media all and (max-width: 991px) {
+  .wfp-form-container {
+    display: block;
+  }
+}

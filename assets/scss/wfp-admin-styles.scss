@@ -1,0 +1,53 @@
+@import '_variable';
+
+.wfp-wrap {
+	.wfp_front_end_row {
+		input[type='number'] {
+			padding: 8px 15px;
+			height: 36px;
+			min-width: 330px;
+			border-color: $color1;
+			&:focus {
+				outline: none;
+				box-shadow: none;
+				border-color: $color1;
+			}
+		}
+		input[type=checkbox] {
+			border-color: $color1;
+			box-shadow: none;
+			outline: none;
+		}
+	}
+	.button-primary,
+	.button-primary:active,
+	.button-primary:focus,
+	.button-primary:hover {
+			background: $color1;
+			border-color: $color1;
+			box-shadow: none;
+			outline: none;
+			padding: 8px 20px;
+			color: $color2;
+			border-radius: 0;
+			text-shadow: none;
+			height: auto;
+			font-size: 16px;
+			letter-spacing: 0.05em;
+	}
+	.form-shortcodes h4 {
+		color: $color1;
+	    font-size: 16px;
+	    background: $color2;
+	    display: inline-block;
+	    padding: 5px 15px;
+	    line-height: 24px;
+	    margin: 0;
+	}
+}
+
+@media screen and (max-width: 560px){
+	.wfp-wrap .wfp_front_end_row input[type='number'] {
+		min-width: 280px;
+	}
+}
