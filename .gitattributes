@@ -1,3 +1,2 @@
-*.php linguist-detectable=true
 *.WordPress linguist-detectable=true
 *.css linguist-detectable=false
